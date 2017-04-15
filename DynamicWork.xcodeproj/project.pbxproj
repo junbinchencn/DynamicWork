@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A50459441EA1D0CE00C6C689 /* CacheProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = A50459431EA1D0CE00C6C689 /* CacheProxy.m */; };
+		A50459471EA1E7CA00C6C689 /* CachePerson.m in Sources */ = {isa = PBXBuildFile; fileRef = A50459461EA1E7CA00C6C689 /* CachePerson.m */; };
 		A5FA9A9A1E9D0C80006CA0C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FA9A991E9D0C80006CA0C7 /* main.m */; };
 		A5FA9A9D1E9D0C80006CA0C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FA9A9C1E9D0C80006CA0C7 /* AppDelegate.m */; };
 		A5FA9AA01E9D0C80006CA0C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5FA9A9F1E9D0C80006CA0C7 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A50459421EA1D0CE00C6C689 /* CacheProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheProxy.h; sourceTree = "<group>"; };
+		A50459431EA1D0CE00C6C689 /* CacheProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheProxy.m; sourceTree = "<group>"; };
+		A50459451EA1E7CA00C6C689 /* CachePerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CachePerson.h; sourceTree = "<group>"; };
+		A50459461EA1E7CA00C6C689 /* CachePerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CachePerson.m; sourceTree = "<group>"; };
 		A5FA9A951E9D0C80006CA0C7 /* DynamicWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5FA9A991E9D0C80006CA0C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5FA9A9B1E9D0C80006CA0C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +78,10 @@
 				A5FA9A981E9D0C80006CA0C7 /* Supporting Files */,
 				A5FA9AB21E9D0D06006CA0C7 /* Person.h */,
 				A5FA9AB31E9D0D06006CA0C7 /* Person.m */,
+				A50459421EA1D0CE00C6C689 /* CacheProxy.h */,
+				A50459431EA1D0CE00C6C689 /* CacheProxy.m */,
+				A50459451EA1E7CA00C6C689 /* CachePerson.h */,
+				A50459461EA1E7CA00C6C689 /* CachePerson.m */,
 			);
 			path = DynamicWork;
 			sourceTree = "<group>";
@@ -157,9 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5FA9AA01E9D0C80006CA0C7 /* ViewController.m in Sources */,
+				A50459471EA1E7CA00C6C689 /* CachePerson.m in Sources */,
 				A5FA9A9D1E9D0C80006CA0C7 /* AppDelegate.m in Sources */,
 				A5FA9AB41E9D0D06006CA0C7 /* Person.m in Sources */,
 				A5FA9A9A1E9D0C80006CA0C7 /* main.m in Sources */,
+				A50459441EA1D0CE00C6C689 /* CacheProxy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +328,7 @@
 				A5FA9AAE1E9D0C80006CA0C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
